@@ -11,6 +11,17 @@ namespace Week4IfStatement.Controllers
     {
         //find the quardrant
         // each quardrant is 90 degree
+        /// <summary>
+        /// Find the quardrant
+        /// </summary>
+        /// <param name="x">x axis on horizontal line</param>
+        /// <param name="y">y axis on vertical line</param>
+        /// <returns>
+        /// integers of 1/1 -> 1
+        /// integers of -1/-1 -> 3
+        /// integers of 1/-1 -> 4
+        /// integers of 0/10 -> 0
+        /// </returns>
 
         [HttpGet]
         [Route("api/Week4IfStatement/Practice2/{x}/{y}")]
@@ -23,7 +34,6 @@ namespace Week4IfStatement.Controllers
             var q360 = (x > 0 && y < 0);
             var Practice2 =  q90 || q180 || q270 || q360;
             
-
             
             if (Practice2 = q90)
             {
