@@ -12,13 +12,13 @@ namespace Week4IfStatement.Controllers
         //find the quardrant
         // each quardrant is 90 degree
         /// <summary>
-        /// Find the quardrant
+        /// Find the quardrant with the given x and y integer
         /// </summary>
         /// <param name="x">x axis on horizontal line</param>
         /// <param name="y">y axis on vertical line</param>
         /// <returns>
-        /// integers of 1/1 -> 1
-        /// integers of -1/-1 -> 3
+        /// integers of 1/1 -> 1 
+        /// integers of -1/-1 -> 3 
         /// integers of 1/-1 -> 4
         /// integers of 0/10 -> 0
         /// </returns>
